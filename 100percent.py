@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 DATABASE_FILE = 'zalando_database.csv'
-NEW_DATABASE_FILE = 'feature_label.csv'
+NEW_DATABASE_FILE = '100percent.csv'
 df = pd.read_csv(DATABASE_FILE)
 IMAGE_SIZE = 28
 
@@ -40,7 +40,7 @@ def initiate_dfMain():
 
 def main_func():
     print('Initializing dfMain...')
-    dfMain = loadDatabase()
+    dfMain = initiate_dfMain()
     print('dfMain Initialized!')
 
     CATEGORIES = {'Jacket':0, 'Pants':1, 'Jeans':2, 'Shorts':3, 'T-shirt':4,
