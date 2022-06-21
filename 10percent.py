@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 DATABASE_FILE = 'zalando_database.csv'
-NEW_DATABASE_FILE = 'feature_label.csv'
+NEW_DATABASE_FILE = '10percent.csv'
 df = pd.read_csv(DATABASE_FILE)
 IMAGE_SIZE = 28
 
