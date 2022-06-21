@@ -41,7 +41,7 @@ def initiate_dfMain():
 
 def main_func():
     print('Initializing dfMain...')
-    dfMain = loadDatabase()
+    dfMain = initiate_dfMain()
     print('dfMain Initialized!')
 
     CATEGORIES = {'Jacket':0, 'Pants':1, 'Jeans':2, 'Shorts':3, 'T-shirt':4,
